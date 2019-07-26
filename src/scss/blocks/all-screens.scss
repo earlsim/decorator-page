@@ -1,0 +1,21 @@
+
+.all-screens-bg-text {
+  z-index: -1;
+  position: absolute;
+  top: -235px;
+  left: 0;
+  font-size: 288px;
+  font-weight: 700;
+  line-height: 0.858em;
+  color: $c-main;
+  opacity: .03;
+}
+.all-screens__head {
+  text-align: right;
+}
+.all-screens__pic {
+  margin-top: 130px;
+}
+.all-screens__img img {
+  width: 100%;
+}

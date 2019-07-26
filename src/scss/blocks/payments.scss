@@ -1,0 +1,26 @@
+.payments-bg {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 288px;
+  font-weight: 700;
+  line-height: 0.858em;
+  color: $c-main;
+  opacity: 0.03;
+}
+.payments-head {
+  margin-bottom: 128px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  &__title {}
+  &__text {
+    max-width: 443px;
+    font-size: 20px;
+    line-height: 1.600em;
+  }
+}
+.payments-body {
+  box-shadow: 0 0 64px rgba(72, 22, 93, 0.15);
+}

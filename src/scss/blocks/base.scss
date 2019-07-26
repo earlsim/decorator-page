@@ -1,0 +1,28 @@
+.decorator-block {
+  position: relative;
+  margin-bottom: 100px;
+
+  @media ($m-m) {
+    margin-bottom: 250px;
+  }
+}
+.decorator-block--mb400 {
+  margin-bottom: 150px;
+
+  @media ($m-m) {
+    margin-bottom: 400px;
+  }
+}
+.decorator-phone {
+  position: relative;
+  margin-bottom: 620px;
+}
+.decorator-img {
+  width: 100%;
+}
+.decorator-container {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 24px;
+}

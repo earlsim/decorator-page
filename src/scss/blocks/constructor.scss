@@ -1,0 +1,53 @@
+.constructor__tulip {
+  display: none;
+  z-index: 3;
+  position: absolute;
+  height: 400px;
+  right: -280px;
+  bottom: -150px;
+  animation: floating-tulip 10s ease-out alternate infinite;
+  @keyframes floating-tulip {
+    0% {
+      transform: translateY(0);  }
+    50% {
+      transform: translateY(-150px) rotate(-15deg); }
+    100% {
+      transform: translateY(0); }
+  }
+
+  @media ($m-s) {
+    display: block;
+  }
+  @media ($m-xl) {
+    right: -500px;
+    height: auto;
+  }
+}
+.constructor-head {
+  margin-bottom: 128px;
+}
+.constructor-title {
+  font-size: 48px;
+  @media ($m-xxs) {
+    font-size: 60px;
+  }
+}
+.constructor-bg-text {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  font-size: 288px;
+  font-weight: 700;
+  line-height: 0.858em;
+  text-align: right;
+  color: $c-main;
+  opacity: 0.03;
+}
+.constructor-text {
+  max-width: 445px;
+  font-size: 20px;
+  line-height: 1.600em;
+}
+.constructor-body {
+  box-shadow: 0 0 64px rgba(72, 22, 93, 0.15);
+}

@@ -1,0 +1,43 @@
+.phone-head {
+  margin-bottom: 130px;
+}
+.phone-head__text {
+  font-size: 20px;
+  line-height: 1.600em;
+  color: $c-black;
+}
+.phone-bg-text {
+  position: absolute;
+  right: -324px;
+  top: -94px;
+  font-size: 288px;
+  font-weight: 700;
+  line-height: 0.858em;
+  color: $c-main;
+  opacity: .03;
+}
+.phone-body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.phone__inner {
+  position: absolute;
+  top: 70px;
+}
+.phone__img {
+  max-width: 400px;
+  animation: floating-phone 5s ease-out infinite;
+}
+@keyframes floating-phone {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(60px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

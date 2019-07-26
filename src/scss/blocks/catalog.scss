@@ -1,0 +1,21 @@
+.catalog-head {
+  margin-bottom: 130px;
+}
+.catalog-text {
+  font-size: 20px;
+  line-height: 1.600em;
+  max-width: 443px;
+}
+.catalog-body {
+  box-shadow: 0 0 64px rgba(72, 22, 93, 0.15);
+}
+.catalog-bg-text {
+  position: absolute;
+  top: -130px;
+  right: 0;
+  font-size: 288px;
+  font-weight: 700;
+  line-height: 0.858em;
+  color: $c-main;
+  opacity: .03;
+}

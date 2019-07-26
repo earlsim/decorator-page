@@ -1,0 +1,19 @@
+// System
+@import './system/_fonts.scss';
+@import './system/_vars.scss';
+@import './system/_mixins.scss';
+@import './system/_start.scss';
+
+// Blocks
+@import 'blocks/all-screens.scss';
+@import 'blocks/base.scss';
+@import 'blocks/head.scss';
+@import 'blocks/grid.scss';
+@import 'blocks/main-page.scss';
+@import 'blocks/card.scss';
+@import 'blocks/catalog.scss';
+@import 'blocks/constructor.scss';
+@import 'blocks/payments.scss';
+@import 'blocks/phone.scss';
+@import 'blocks/typo.scss';
+@import 'blocks/thanks.scss';
